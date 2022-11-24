@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 4em;
+  color: rgb(126, 178, 126);
+}
+
+p {
+  font-size: 3em;
+  color: rgb(205, 205, 149);
+}
+
+#timer {
+  font-size: 7em;
+  margin-top: 15px;
+  color: rgb(83, 107, 83);
+}
